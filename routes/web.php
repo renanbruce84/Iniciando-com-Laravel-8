@@ -18,7 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('factories', function () {
-    // \App\Models\User::factory()->count(4)->create();// A factory pode ser executado por aqui
-
-    
+    // \App\Models\User::factory()->count(4)->create(); // Factory
 });
